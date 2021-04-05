@@ -1,8 +1,7 @@
-import find from "./find.mjs";
-import identity from "./identity.mjs";
+import positive from "./positive.mjs";
 
 var some = function (list) {
-  return !!find(list, identity);
+  return not(not(positive(list)));
 }
 
 export default some;

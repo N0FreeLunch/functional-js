@@ -1,8 +1,11 @@
-import filter from "./filter.mjs";
-import identity from "./identity.mjs";
+import negativeIndex from "./negativeIndex.mjs";
+
+// var every = function (list) {
+//   return filter(list, identity).length === list.length;
+// }
 
 var every = function (list) {
-  return filter(list, identity).length === list.length;
-}
+  return beq(-1)(negativeIndex(list));
+};
 
 export default every;

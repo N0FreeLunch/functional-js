@@ -4,5 +4,4 @@ function beq(a) {
   }
 }
 
-
 export default beq;

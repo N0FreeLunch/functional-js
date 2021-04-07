@@ -1,4 +1,4 @@
-# functional-js
+# Functional-Javascript
 
 
 ## reference

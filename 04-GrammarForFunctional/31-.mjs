@@ -8,10 +8,3 @@ _.map(arr, function (v, i) {
   }(v, i);
 });
 console.timeEnd('4');
-
-console.time('5');
-var arr = Array(10000);
-_.map(arr, function (v, i) {
-  return L('v, i => i * 2')(v, i);
-});
-console.timeEnd('5');

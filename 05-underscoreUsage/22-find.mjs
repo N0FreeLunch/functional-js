@@ -17,16 +17,11 @@ _.find(list, function (num) {
 
 console.log(list2);
 
-_.filter2 = function (data, predicate, limit) {
-  var list2 = [];
-  _.find(data, function (val, key, data) {
-    return predicate(val, key, data) && list2.push(val) == limit;
-  });
-  return list2;
-}
+var list3 = [];
+var loopCount = 0;
+_.find(list, function (num) {
+  loopCount++
+  return num % 2 == 0 && list3.push(num) == limit;
+});
 
-console.log(
-  _.filter2(list, function (num) {
-    return num % 2 ==0;
-  }, 5)
-);
+console.log(loopCount);

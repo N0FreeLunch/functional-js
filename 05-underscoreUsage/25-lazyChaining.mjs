@@ -1,9 +1,15 @@
 import _ from 'underscore';
 import lodash from 'lodash';
 
-function mul10(num) {return num * 10}
-function sub10(num) {return num - 10}
-function square(num) {return num * num}
+function mul10(num) {
+  return num * 10
+}
+function sub10(num) {
+  return num - 10
+}
+function square(num) {
+  return num * num
+}
 
 var list = [1,2,3,4,5];
 var result2 =

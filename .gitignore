@@ -1,4 +1,4 @@
-.page
+*.page
 *.lnk
 node_modules
 node_modules/*

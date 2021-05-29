@@ -2,6 +2,11 @@
 - functional javascript에 관한 책을 읽으며 공부하고 있습니다.
 - 関数型 javascriptに関する本を読んで勉強しています。
 
+## nodejs version
+```
+nvm use 15
+v15.13.0
+```
 
 ## reference
 - \[book\] 함수형 자바스크립트 프로그래밍  - 유인동 -
